@@ -1,0 +1,43 @@
+{
+  "name": "double",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "serve": "vite preview",
+    "coverage": "vitest run --coverage"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">= 12.16"
+  },
+  "stylelint": {
+    "extends": "@shopify/stylelint-polaris"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.68.3",
+    "@react-three/fiber": "^8.13.0",
+    "@types/three": "^0.152.0",
+    "@vitejs/plugin-react": "1.2.0",
+    "axios": "^1.4.0",
+    "framer-motion": "^10.12.11",
+    "fs": "^0.0.1-security",
+    "http-server": "^14.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.34.19",
+    "react-router-dom": "^6.11.1",
+    "react-slider": "^2.0.4",
+    "sass": "^1.62.1",
+    "three": "^0.152.2",
+    "vite": "^4.3.8",
+    "web-vitals": "^3.3.1"
+  },
+  "devDependencies": {
+    "history": "^5.3.0",
+    "prettier": "^2.6.0",
+    "vi-fetch": "^0.6.1"
+  }
+}

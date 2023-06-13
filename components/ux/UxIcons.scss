@@ -1,0 +1,52 @@
+
+.ux-icons {
+    position: fixed;
+    width: 2px;
+    // height: 10vh;
+    bottom: 1.5rem;
+    left: 3rem;
+    // border: solid white 3px;
+    font-size: .55rem;
+    letter-spacing: 2px;
+    user-select: none;
+}
+.ux-icons-mobile{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    // flex-direction: column;
+    justify-content: space-around;
+    align-items: normal;
+    h3{
+        font-family: "Poppins", sans-serif;
+    }
+
+    img{
+        width: 3rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .ux-icons {
+        position: absolute;
+         font-size: .3rem;
+        top: 0;
+         left: 3%;
+  
+    }
+    .ux-icons-mobile{
+        display: flex;
+        // height: 100vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+   
+    
+        img{
+            width: 1.73rem;
+        }
+    }
+    .ux-icon{
+        width: auto;
+    }
+  }
